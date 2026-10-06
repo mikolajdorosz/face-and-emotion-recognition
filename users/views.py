@@ -63,7 +63,7 @@ def logout_view(request):
 @gzip.gzip_page
 def face_recognition_view(request):
     faces = Face.objects.all()
-    dir = 'D:/MMProject/media/known_faces'
+    dir = 'media/known_faces'
     known_face_encodings = []
     known_face_names = []
 

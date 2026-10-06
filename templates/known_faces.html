@@ -3,12 +3,12 @@
 
 {% block content %}
 <div id="known-faces-main">
-	{% for face in all %} {% if face.name != None and face.picture != None %}
-	<div class="face">
-		<img src="./media/{{face.picture}}" class="face-picture" />
-		<div class="face-name">{{face.name}}</div>
-	</div>
-	{% endif %} {% endfor %}
+    {% for face in all %} {% if face.name != None and face.picture != None %}
+    <div class="face">
+        <img src="./media/known_faces/{{face.picture}}" class="face-picture" />
+        <div class="face-name">{{face.name}}</div>
+    </div>
+    {% endif %} {% endfor %}
 </div>
 
 <!---->
