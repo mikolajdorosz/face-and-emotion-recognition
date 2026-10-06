@@ -41,8 +41,10 @@ The model was trained on a facial emotion dataset from Kaggle, which is not incl
 
 ### Setup virtual environment
 
+Works with python 3.11
+
 ```bash
-python -3.11 -m venv .venv
+python -m venv .venv
 .venv\Scripts\activate
 ```
 
