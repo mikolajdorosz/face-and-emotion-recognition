@@ -16,15 +16,45 @@ Main features include:
 - image preprocessing and classification
 - integration of the recognition functionality into a web application
 
-Project included training model on dataset from kaggle that is not included in the repository. There are already prepared trained model files that has been created by model_training script.
+The model was trained on a facial emotion dataset from Kaggle, which is not included in the repository. A pre-trained model is provided and can be loaded by the application.
 
 ## Project preview
 
-![Face recognition](images/face-recognition.png)
+### Welcome page
 
-![Emotion recognition](images/emotion-recognition.png)
+![welcome-page](images/preview/welcome-page.png)
 
-1. Create virtual env in project's folder: python -m venv env
-2. Activate it: env\scripts\activate
-3. Install all dependencies: pip install -r requirements.txt
-4. Run: python manage.py makemigrations, python manage.py migrate, python manage.py runserver
+### Adding face
+
+![adding-face](images/preview/adding-face.png)
+
+### Face recognition
+
+![face-recognition](images/preview/face-recognition.png)
+
+### Emotion recognition
+
+![emotion-recognition](images/preview/emotion-recognition.png)
+
+## Running the project
+
+### Setup virtual environment
+
+```bash
+python -3.11 -m venv .venv
+.venv\scripts\activate
+```
+
+### Install all the dependencies 
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the backend
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
