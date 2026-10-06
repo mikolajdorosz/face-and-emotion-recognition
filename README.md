@@ -16,6 +16,8 @@ Main features include:
 - image preprocessing and classification
 - integration of the recognition functionality into a web application
 
+Project included training model on dataset from kaggle that is not included in the repository. There are already prepared trained model files that has been created by model_training script.
+
 ## Project preview
 
 ![Face recognition](images/face-recognition.png)
